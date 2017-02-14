@@ -5,6 +5,25 @@ body {
 	height: 10000px;
 	font-family: 'Noto Sans TC', sans-serif !important;
 }
+#load-cover {
+  display:        table;
+  position:       fixed;
+  top:            0;
+  left:           0;
+  width:          100%;
+  height:         100%;
+  z-index:        9999;
+}
+#load-cover > div{
+  display:        table-cell;
+  width:          100%;
+  height:         100%;
+  background:     #50a497;
+  text-align:     center;
+  vertical-align: middle;
+}
+
+
 .landing {
 	background-color: #72c6bb;
 }
